@@ -2,29 +2,6 @@
 
 using namespace std;
 
-//long long factorial(int n)
-//{
-//    vector<long long> memorization(10000, -1);
-//    if(n < 1)
-//    {
-//        memorization[0] = 1;
-//        return 1;
-//    }
-//    if(n == 1)
-//    {
-//        memorization[1] = 1;
-//        return 1;
-//    }
-//
-//    if(memorization[n] == -1)
-//    {
-//        memorization[n] = n * factorial(n-1);
-//        return memorization[n];
-//    }
-//
-//    return n * memorization[n-1];
-//}
-
 int main()
 {
     ios::sync_with_stdio(0);

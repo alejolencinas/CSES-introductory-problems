@@ -20,6 +20,5 @@ int main()
             cout << i;
         }
     }
-    // cout << "Hello world!" << endl;
     return 0;
 }

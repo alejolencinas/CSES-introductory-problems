@@ -63,39 +63,6 @@ int main()
                 number_result = max_square_value - (square_num - 1) - (square_num - y);
             }
 
-//            if( (x == 1) && (y == (square_num - 1)) )
-//            {
-//                //min value case
-//                number_result = min_square_value;
-//            } else
-//            {
-//                if( (x == 1) && (y == square_num) )
-//                {
-//                    //max value case
-//                    number_result = max_square_value;
-//                } else
-//                {
-//                    if( (y == (square_num - 1)) && (x < square_num) )
-//                    {
-//                        number_result = min_square_value + (x - 1);
-//                    } else
-//                    {
-//                        if( (y < (square_num - 1)) && (x < square_num) )
-//                        {
-//                            number_result = min_square_value + (x - 1) + (square_num - 1 - y);
-//                        } else
-//                        {
-//                            if(y == square_num)
-//                            {
-//                                number_result = max_square_value - x - 1;
-//                            } else
-//                            {
-//                                number_result = max_square_value - (square_num - 1) - (square_num - y);
-//                            }
-//                        }
-//                    }
-//                }
-//            }
             cout << number_result << "\n";
         }
     }
