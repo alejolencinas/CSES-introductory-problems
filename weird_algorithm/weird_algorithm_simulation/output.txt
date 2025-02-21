@@ -1,0 +1,3 @@
+Ns with overflow: 
+
+Max value: 56991483520 for n = 704511
