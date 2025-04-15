@@ -11,20 +11,21 @@ int main()
         cout << "NO SOLUTION";
     } else
     {
+        string evens = "", odds = "";
         for(int i = 1; i <= n; i++)
         {
             if((i % 2) == 0)
             {
-                cout << i << " ";
+                evens.append(to_string(i));
+                evens.append(" ");
             }
-        }
-        for(int i = 1; i <= n; i++)
-        {
             if((i % 2) != 0)
             {
-                cout << i << " ";
+                odds.append(to_string(i));
+                odds.append(" ");
             }
         }
+        cout << evens << odds;
     }
     return 0;
 }
